@@ -1,4 +1,29 @@
 //css//
 h1 {
 	font-size: $fsize;
+	font-weight: $fweight;
+}
+
+.tabs {
+	border-bottom: $b-bottom;
+}
+.tabs .tab a {
+	color: $fcolorul;
+	font-weight: $fweight;
+	padding-left: $pleft;
+	
+}
+
+.row .col .s6 {
+	padding-left: $pleft;
+	padding-right: $pright;
+	
+}
+
+.image {
+	margin-left: $mleft;
+}
+
+.kids {
+	margin-bottom: $mbottom;
 }

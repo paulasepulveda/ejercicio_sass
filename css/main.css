@@ -6355,6 +6355,25 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 h1 {
-  font-size: 28px; }
+  font-size: 30px;
+  font-weight: 900; }
+
+.tabs {
+  border-bottom: #EA1010; }
+
+.tabs .tab a {
+  color: #ACA6A6;
+  font-weight: 900;
+  padding-left: 0; }
+
+.row .col .s6 {
+  padding-left: 0;
+  padding-right: 0; }
+
+.image {
+  margin-left: 12px; }
+
+.kids {
+  margin-bottom: 15px; }
 
 /*# sourceMappingURL=main.css.map */
