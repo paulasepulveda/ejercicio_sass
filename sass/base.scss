@@ -1,4 +1,3 @@
-//css//
 h1 {
 	font-size: $fsize;
 	font-weight: $fweight;
@@ -6,24 +5,90 @@ h1 {
 
 .tabs {
 	border-bottom: $b-bottom;
-}
-.tabs .tab a {
-	color: $fcolorul;
-	font-weight: $fweight;
-	padding-left: $pleft;
-	
+	.tab {
+		a {
+			color: $fcolorul;
+			font-weight: $fweight;
+			padding-left: $pleft;
+		}
+	}
 }
 
-.row .col .s6 {
-	padding-left: $pleft;
-	padding-right: $pright;
-	
+.row {
+	.col {
+		.s6 {
+			padding-left: $pleft;
+			padding-right: $pright;
+		}
+	}
 }
 
 .image {
-	margin-left: $mleft;
+			margin-left: $mleft;
 }
 
 .kids {
-	margin-bottom: $mbottom;
+			margin-bottom: $mbottom;
 }
+
+#describes {
+	.col{
+		.s12 {
+			padding-left: 0px;
+			margin-bottom:30px;
+			}
+	
+	.col {
+		.s6 {
+				span {
+					color: #FF8A80 !important;
+					font-size:12px; 
+				}
+				p {
+					font-size: 13px;
+					margin: 2px 0 2px;
+				}
+				.stars {
+					width: 70%;
+				}
+			}
+		}
+	}	
+}
+
+#rs {
+	.col {
+		.s12{
+			padding-right:10px;
+		}
+	}
+	li{
+		position: relative;
+		float: left;
+		display: inline-block;
+	}
+	.fa {
+		font-size:34px;
+		color: #ffffff !important;
+		width: 90px;
+		height:60px;
+		padding: 13px 35px;
+		margin-right:2px;
+	}
+	.fa-facebook {
+		background-color: #0277bd !important;
+	}
+	.fa-twitter {
+		background-color: #4fc3f7 !important;
+	}
+	.fa-rss {
+		background-color: #fb8c00 !important;
+	}
+}
+
+
+
+
+
+	
+

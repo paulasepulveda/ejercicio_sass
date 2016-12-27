@@ -6360,11 +6360,10 @@ h1 {
 
 .tabs {
   border-bottom: #EA1010; }
-
-.tabs .tab a {
-  color: #ACA6A6;
-  font-weight: 900;
-  padding-left: 0; }
+  .tabs .tab a {
+    color: #ACA6A6;
+    font-weight: 900;
+    padding-left: 0; }
 
 .row .col .s6 {
   padding-left: 0;
@@ -6375,5 +6374,37 @@ h1 {
 
 .kids {
   margin-bottom: 15px; }
+
+#describes .col .s12 {
+  padding-left: 0px;
+  margin-bottom: 30px; }
+#describes .col .col .s6 span {
+  color: #FF8A80 !important;
+  font-size: 12px; }
+#describes .col .col .s6 p {
+  font-size: 13px;
+  margin: 2px 0 2px; }
+#describes .col .col .s6 .stars {
+  width: 70%; }
+
+#rs .col .s12 {
+  padding-right: 10px; }
+#rs li {
+  position: relative;
+  float: left;
+  display: inline-block; }
+#rs .fa {
+  font-size: 34px;
+  color: #ffffff !important;
+  width: 90px;
+  height: 60px;
+  padding: 13px 35px;
+  margin-right: 2px; }
+#rs .fa-facebook {
+  background-color: #0277bd !important; }
+#rs .fa-twitter {
+  background-color: #4fc3f7 !important; }
+#rs .fa-rss {
+  background-color: #fb8c00 !important; }
 
 /*# sourceMappingURL=main.css.map */
